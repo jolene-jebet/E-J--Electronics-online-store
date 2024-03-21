@@ -356,4 +356,9 @@ ul{
   font-weight: bolder;
 }
 
+.black-background .form-wrapper {
+  border: 2px solid white; /* Added border */
+  padding: 20px; /* Added padding inside the border */
+}
+
 

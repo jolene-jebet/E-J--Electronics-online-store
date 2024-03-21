@@ -43,10 +43,11 @@
     </nav>
 
 
-
-    <div class="container-fluid black-background">
-        <div class="row justify-content-center">
-            <div class="col-lg-4 col-md-5 col-sm-4 offset-md-1 offset-sm-1 col-12 mt-4">
+<!--form section-->
+<div class="container-fluid black-background">
+    <div class="row justify-content-center">
+        <div class="col-lg-4 col-md-5 col-sm-4 offset-md-1 offset-sm-1 col-12 mt-4">
+            <div class="form-wrapper"> <!-- Added wrapper -->
                 <form id="algin-form">
                     <div class="form-group">
                         <h4>Leave a Review</h4>
@@ -55,11 +56,11 @@
                     </div>
                     <div class="form-group">
                         <label for="name">Name</label>
-                        <input type="text" name="name" id="fullname" class="form-control" placeholder="Full Name">
+                        <input type="text" name="name" id="fullname" class="form-control">
                     </div>
                     <div class="form-group">
                         <label for="email">Email</label>
-                        <input type="text" name="email" id="email" class="form-control" placeholder="Your Email">
+                        <input type="text" name="email" id="email" class="form-control">
                     </div>
                     
                     <div class="form-inline">
@@ -67,12 +68,13 @@
                         <label for="subscribe">Subscribe me to notifications of hot deals and new arrivals</label>
                     </div>
                     <div class="form-group">
-                        <button type="button" id="post" class="btn btn-outline-light">Post Comment</button>
+                        <button type="button" id="post" class="btn">Post Comment</button>
                     </div>
                 </form>
             </div>
         </div>
     </div>
+</div>
     
     
     <!--bootstrap script-->
