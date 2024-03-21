@@ -226,11 +226,11 @@
   }
 
   .content-table tbody tr{
-    border-bottom: 1px solid rgba(211, 211, 211);
+    border-bottom: 1px solid rgb(255, 255, 255);
   }
 
   .content-table tbody tr:nth-last-of-type(even){
-    background-color: rgba(243, 243, 243);
+    background-color: rgb(255, 255, 255);
   }
 
   .content-table tbody tr:last-of-type{
@@ -252,19 +252,68 @@
     
   
   }
+.main-textproduct{
+  content: '';
+    position: absolute;
+    left:0px;
+    bottom: -8px;
+    background-color:#000000;
+    width: 46px;
+    height: 2px;
 
+
+}
   
   
 
-  footer{
-    background-color: #000000;
+  .footer{
+    background: #000000;
+    color:#ffffff;
+    font-size: 14px;
+    padding: 60px 0 20px;
+    
+}
+.footer p{
     color: #ffffff;
-    position: relative;
-    height: 50px;
-    margin-top: -50px;
-    clear: both;
-    padding: 20px 0 50px 0;
+}
+
+.footer h3{
+    color: #ffffff;
+    margin-bottom:20px;
+
+}
+.footer-col-1, .footer-col-2, .footer-col-3, .footer-col-4{
+    min-width: 250px;
+    margin-bottom: 20px;
+}
+.footer-col-1{
+    flex-basis: 30%;
+}
+.footer-col-2{
+    flex: 1;
+    text-align: center;
+}
+.footer-col-3, .footer-col-4{
+    flex-basis: 12%;
+    text-align: center;
+
+}
+ul{
+    list-style-type: none;
+}
+.footer hr{
+    border: none;
+    background: #ffffff;
+    height:1px;
+    margin: 20px 0;
+
+}
+.copyright{
+    text-align: center;
+}
+  
+  h1{
+    font-weight: 200px;
     text-align: center;
   }
-  
   
